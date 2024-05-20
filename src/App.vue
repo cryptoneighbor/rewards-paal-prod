@@ -58,7 +58,7 @@ export default {
   mounted() {
     this.handleResize(); // Check screen size on mount
     window.addEventListener('resize', this.handleResize); // Adjust on window resize
-    document.title = "Paal rewards"
+    document.title = "Paal AI STAKING"
   },
   beforeUnmount() {
     window.removeEventListener('resize', this.handleResize); // Cleanup listener on component destroy
